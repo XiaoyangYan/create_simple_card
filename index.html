@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link ret="stylesheet"  type="text/style" src="">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"></link>
+	<style type="text/css">
+		*::before, *::after{
+			box-sizing: inherit;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			box-sizing: border-box;
+			font-family: "Roboto", sans-serif;
+			margin: 50px;
+			font-size: 10px;
+		}
+		div.card{
+			position: relative;
+			width: 300px;
+			height: auto;
+			background-color: #ffffff;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border: 1px solid #C0C0C0;
+			border-radius: 10px;
+			box-shadow: 3px 2px 3px #888888;
+		}
+		.card_header{
+			height:50px;
+			width: auto;
+			margin-left: 20px;
+			margin-right:20px;
+			padding-top: 10px
+		}
+		.card_icons {
+			width:25px;
+			height:25px;
+			font-size: 20px;
+			text-align: center;
+			line-height: 25px;
+			margin-right:20px;
+			float: left;
+			color:#fffff2;
+			background-color: #D00000;
+			border-radius: 50%;
+			display: inline-block;
+		}
+		.name_of_food{
+			width: 160px;
+			height: 25px;
+
+			font-size: 12px;
+			line-height: 18px;
+			padding:0 0;
+			left: 20px;
+			float: left;
+			display: inline-block;
+		}
+		.date_of_food{
+			font-size: 10px;
+			color: #C0C0C0;
+		}
+		.card_icon_s{
+			float: right;
+			width:15px;
+			height: 15px;
+			position: relative;
+			text-align: center;
+			padding: 5px;
+		}
+		.card_icon_s:hover{
+			background-color: #C0C0C0;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+		.card_icon_s:active{
+			background-color: #C0CCCC;
+			border-radius: 50%;
+		}
+		.card_middle{
+			height:250px;
+			width: 300px;
+		}
+		.graph{
+			height: 200px;
+			width: 300px;
+			background-size: 200px 300px;
+			overflow: hidden;
+      		background-position: center center;
+			background: url("https://material-ui.com/static/images/cards/paella.jpg");
+		}
+		.card_middle p{
+			text-align: center;
+			width: 250px;
+			right: 25px;
+			left: 25px;
+			position: relative;
+		}
+		.card .card_tailer{
+			margin: 5px 15px 15px 15px;
+		}
+		.card_tailer .like{
+			font-size: 20px;
+			color: #ccc;
+			cursor: pointer;
+		}
+		.like:hover{
+			color:red;
+		}
+		.card_tailer .like:active{
+			color:red;
+		}
+		.click_to{
+			width: 20px;
+			height: 20px;
+		}
+		div.to_click{
+			display: none;
+			left:5px;
+			right: 15px;
+			width: 270px;
+			position: relative;
+			line-height: 15px;
+		}
+		.click_to:hover .to_click{
+			margin-top: 15px;
+			display: block;
+			color : #000000;
+			font-size: 10px;
+			line-height: 15px;
+			right: 10px;
+			width: 270px;
+			position: relative;
+		}
+		.click_to:active .to_click{
+			margin-top: 15px;
+			display: block;
+			color : #000000;
+			font-size: 10px;
+			line-height: 10px;
+			right: 10px;
+			width: 270px;
+			position: relative;
+		}
+		.clear{
+			clear: both;
+		}
+	</style>
+	</head>
+		<div class="card">
+			<div class="card_header">
+			   <span class="card_icons">R</span>
+			   <span class = "name_of_food">
+			   	   <span>Shrimp and Chorizo Pella</span><br/>
+			   	   <span class="date_of_food">September 14, 2016</span>
+				</span>
+			   <span class="fa fa-ellipsis-v card_icon_s"></span>
+			</div>
+			<div class="card_middle">
+				<div class= "graph"></div>
+				<p>The impressive pella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like</p>
+			</div>
+			<div class="card_tailer">
+				<i class="fa fa-heart like"  aria-hidden="true" style="margin-right:5px"></i>
+				<i class="fa fa-share-alt like" aria-hidden="true"></i>
+				<span class="click_to">
+				 	<i class="fa fa-arrow-down like " style="float:right;"></i>
+				 	<div class="to_click">
+						Method:<br/>
+						Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10 minutes.
+						Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+						Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender, 5 to 7 minutes more. (Discard any mussels that don’t open.)
+						Set aside off of the heat to let rest for 10 minutes, and then serve.
+					</span>
+					<div class = "clear"></div>
+				 </div>
+			</div>
+			
+		</div>
+	</body>
+
+</html>
